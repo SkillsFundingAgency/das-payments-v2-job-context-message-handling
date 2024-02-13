@@ -12,7 +12,7 @@ variables:
 
 resources:
   repositories:
-    - repository: das-payments-v2-common
+    - repository: das-payments-v2-job-context-message-handling
       type: github
       name: SkillsFundingAgency/das-payments-v2-job-context-message-handling
       endpoint: SkillsFundingAgency
