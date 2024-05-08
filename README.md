@@ -10,7 +10,7 @@
 
 ## How It Works
 
-The Payments V2 Job Context Message Handler is consumed by the EarningEvents and PeriodEnd servies. It is used to monitor and wait for a relevant messages to complete and will then either delay and check again or report back on job status.
+The Payments V2 Job Context Message Handler is consumed by the EarningEvents and PeriodEnd services. It is used to monitor and wait for a relevant messages to complete and depending upon job status, will then either delay for a recheck in a given timeframe or report back on job status.
 
 More information here: 
 - https://skillsfundingagency.atlassian.net/wiki/spaces/NDL/pages/400130049/4.+Payments+v2+-+Components+DAS+Space
