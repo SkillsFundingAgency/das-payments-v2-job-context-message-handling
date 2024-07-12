@@ -5,29 +5,26 @@
   </PropertyGroup>
 
   <ItemGroup>
-	<PackageReference Include="Autofac" Version="7.0.1" />
-    <PackageReference Include="Autofac.ServiceFabric" Version="2.0.0" />
+    <PackageReference Include="Autofac" Version="7.0.1" />
+    <PackageReference Include="Autofac.ServiceFabric" Version="4.0.0" />
     <PackageReference Include="ESFA.DC.DateTimeProvider" Version="0.1.6-beta0001" />
     <PackageReference Include="ESFA.DC.DateTimeProvider.Interface" Version="0.1.6-beta0001" />
     <PackageReference Include="ESFA.DC.ILR.2223.FundingService.FM36.FundingOutput.Model" Version="0.17.2" />
     <PackageReference Include="ESFA.DC.JobContextManager" Version="0.2.11-beta0001" />
     <PackageReference Include="ESFA.DC.Queueing" Version="0.1.18-beta0001" />
     <PackageReference Include="ESFA.DC.Serialization.Json" Version="0.1.6-beta0001" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.31" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.31" />
-    <PackageReference Include="Microsoft.ServiceFabric.Actors" Version="7.0.1816" />
-    <PackageReference Include="Microsoft.ServiceFabric.Data" Version="7.0.1816" />
-    <PackageReference Include="Microsoft.ServiceFabric.Data.Interfaces" Version="7.0.1816" />
-    <PackageReference Include="Microsoft.ServiceFabric.Diagnostics.Internal" Version="7.0.1816" />
-    <PackageReference Include="Microsoft.ServiceFabric.Services" Version="7.0.1816" />
-    <PackageReference Include="Microsoft.ServiceFabric.Services.Remoting" Version="7.0.1816" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.32" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.32" />
+    <PackageReference Include="Microsoft.ServiceFabric.Actors" Version="7.0.1010" />
+    <PackageReference Include="Microsoft.ServiceFabric.Services" Version="7.0.1010" />
+    <PackageReference Include="Microsoft.ServiceFabric.Services.Remoting" Version="7.0.1010" />
     <PackageReference Include="NServiceBus" Version="8.1.1" />
-    <PackageReference Include="SFA.DAS.Payments.Application" Version="2.0.0-prerelease-26" />
-    <PackageReference Include="SFA.DAS.Payments.Monitoring.Jobs.Data" Version="2.0.1-prerelease-4" />
-    <PackageReference Include="SFA.DAS.Payments.Monitoring.Jobs.DataMessages" Version="2.0.1-prerelease-4" />
-    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.6.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.8.0" />
     <PackageReference Include="WindowsAzure.Storage" Version="9.3.3" />
+
+    <PackageReference Include="SFA.DAS.Payments.Application" Version="2.0.5-prerelease-3" />
+    <PackageReference Include="SFA.DAS.Payments.Monitoring.Jobs.Data" Version="2.0.1-prerelease-2" />
+    <PackageReference Include="SFA.DAS.Payments.Monitoring.Jobs.DataMessages" Version="2.0.1-prerelease-2" />
   </ItemGroup>
 
 
