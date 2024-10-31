@@ -10,7 +10,7 @@
 
 ## How It Works
 
-The Payments V2 Job Context Message Handler is consumed by the EarningEvents and PeriodEnd services. It is used to monitor and wait for a relevant messages to complete and depending upon job status, will then either delay for a recheck in a given timeframe or report back on job status.
+The Payments V2 Job Context Message Handler is consumed by the EarningEvents and PeriodEnd services. It is used to monitor and wait for a relevant message to complete and depending upon job status, will then either delay for a recheck in a given timeframe or report back on job status.
 
 More information here: 
 - https://skillsfundingagency.atlassian.net/wiki/spaces/NDL/pages/400130049/4.+Payments+v2+-+Components+DAS+Space
@@ -20,9 +20,7 @@ More information here:
 
 ### Pre-Requisites
 
-* An Azure DevBox configured for Payments V2 development
-
-Setup instructions: https://skillsfundingagency.atlassian.net/wiki/spaces/NDL/pages/950927878/Development+Environment+-+Payments+V2+DAS+Space
+Setup instructions can be found at the following link, which will help you set up your environment and access the correct repositories: https://skillsfundingagency.atlassian.net/wiki/spaces/NDL/pages/950927878/Development+Environment+-+Payments+V2+DAS+Space
 
 ### Config
 
